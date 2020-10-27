@@ -42,10 +42,10 @@ version: 3.0.0
 # Navbar page list
 nav:
   - title: Blog
-    url: /{{site.baseurl}}/archive
+    url: /leap-blog//archive
 
   - title: About
     url: /leap-blog/about
 
   - title: Resume
-    url: /baseurl/resume
+    url: /leap-blog/resume
