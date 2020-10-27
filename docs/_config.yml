@@ -45,7 +45,7 @@ nav:
     url: /archive
 
   - title: About
-    url: /baseurl/about
+    url: /{{site.baseurl}}/about
 
   - title: Resume
     url: /baseurl/resume
