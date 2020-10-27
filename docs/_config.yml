@@ -2,7 +2,7 @@
 title: Leap
 url: "https://voyage215.github.io"
 paginate: 1
-baseurl: ""
+baseurl: "/leap-blog"
 permalink: pretty
 
 # Gems
@@ -42,10 +42,10 @@ version: 3.0.0
 # Navbar page list
 nav:
   - title: Blog
-    url: /archive
+    url: {{base.url}}/archive
 
   - title: About
-    url: /about
+    url: {{base.url}}/about
 
   - title: Resume
-    url: /resume
+    url: {{base.url}}/resume
