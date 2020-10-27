@@ -14,7 +14,7 @@ Browse all posts by month and year.
     {% for post in yearMonth.items %}
       <!-- Add "{{ site.baseurl }}" -->
       <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      <!-- <li><a href="{{ post.url }}">{{ post.title }}</a></li> -->
     {% endfor %}
   </ul>
 {% endfor %}

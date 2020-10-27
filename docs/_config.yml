@@ -4,7 +4,7 @@ url: "https://voyage215.github.io"
 paginate: 1
 baseurl: "/leap-blog"
 permalink: pretty
-
+paginate_path: "/baseurl/page:num/"
 # Gems
 plugins:
   - jekyll-gist
@@ -42,10 +42,10 @@ version: 3.0.0
 # Navbar page list
 nav:
   - title: Blog
-    url: {{base.url}}/baseurl/archive
+    url: /archive
 
   - title: About
-    url: {{base.url}}/baseurl/about
+    url: /baseurl/about
 
   - title: Resume
-    url: {{base.url}}/baseurl/resume
+    url: /baseurl/resume
