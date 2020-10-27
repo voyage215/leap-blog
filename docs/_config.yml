@@ -1,10 +1,10 @@
 # Setup
 title: Leap
-url: https://voyage215.github.io
+url: "https://voyage215.github.io"
 paginate: 1
-baseurl: "/leap-blog"
+baseurl: ""
 permalink: pretty
-paginate_path: "/baseurl/page:num/"
+
 # Gems
 plugins:
   - jekyll-gist
