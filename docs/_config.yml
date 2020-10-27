@@ -42,10 +42,10 @@ version: 3.0.0
 # Navbar page list
 nav:
   - title: Blog
-    url: {{base.url}}/archive
+    url: {{base.url}}/baseurl/archive
 
   - title: About
-    url: {{base.url}}/about
+    url: {{base.url}}/baseurl/about
 
   - title: Resume
-    url: {{base.url}}/resume
+    url: {{base.url}}/baseurl/resume
